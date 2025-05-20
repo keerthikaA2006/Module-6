@@ -29,6 +29,7 @@ To create an **abstract class** named `Shape` with an **abstract method** `calcu
 ---
 
 ## 💻 Program
+```
 from abc import ABC
 class type_shape(ABC): 
     def area(self):
@@ -62,7 +63,8 @@ t = triangle()
 print("Area of a rectangle:", r.area())
 print("Area of a circle:", c.area()) 
 print("Area of a square:", s.area()) 
-print("Area of a triangle:", t.area()) 
+print("Area of a triangle:", t.area())
+```
 ## Output
 ![image](https://github.com/user-attachments/assets/f4e4bc0b-152e-44f5-a785-1a635454eadb)
 
